@@ -1,26 +1,23 @@
-%%%::::::::::::::::::::::::::::::scienceThesis V2::::::::::::::::::::::::::::::%%%
+%%%::::::::::::::::::::::::::::::engineeringThesis V2::::::::::::::::::::::::::::::%%%
 % Hello!!! Welcome to the style file for your University of Malta, Faculty of
-% Science thesis template. This this style file was created (hacked!) by 
-% William Hicklin B.Sc (Hons) Chem & Phy and Eric Pace B.Sc (Hons) Phy & AI (2012)
+% engineering thesis template. This this style file was created (hacked!) by 
+% Alison Baldacchino B. Eng. (Hons.) 2014
 %%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-% This style file was based on the ICT final year project style file ``fyp.sty"
-% found at http://www.um.edu.mt/ict/UG/DayDegrees/FYPDay/FYPD1112/WD. This style
-% file follows the Faculty of Science, Department of Physics guidelines document
-% ``Final year dissertations and review paper formatting guidelines" found at
-% http://www.um.edu.mt/__data/assets/pdf_file/0009/138294/Final_year_dissertations_and_review_paper_formatting_guidelines.pdf
+% This style file was based on the science final year project style file ``scienceThesis.sty"
+% (taken care of by William Hicklin). This style file follows the Faculty of Science, Department of Physics guidelines document ``Final year dissertations and review paper formatting guidelines" found at http://www.um.edu.mt/__data/assets/pdf_file/0009/138294/Final_year_dissertations_and_review_paper_formatting_guidelines.pdf
 %
 % WARNING:  This package uses the report document class
 %           and works well only with single sided reports.
 %
 %%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 % In this style file you will find all the code that creates the titlepage
-% (\maketitle), deceleration page (\decelerationcom), dedication page
+% (\maketitle), declaration page (\declarationcom), dedication page
 % (\dedicationcom), publications page (\publicationscom), tables of contents,
 % acknowledgements page (\acknowledgementscom) and abstract page (\abstractcom).
 % You will also find settings for the headings ans type-setting styles.
 %%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 \NeedsTeXFormat{LaTeX2e} %
-\ProvidesPackage{scienceThesis}
+\ProvidesPackage{engineeringThesis}
 
 
 %%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -28,7 +25,7 @@
 % common error is to try to use valerie-dissertation as a documentclass.
 %%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 \@ifundefined{chapter}{
-  \@latexerr{The `scienceThesis' option
+  \@latexerr{The `engineeringThesis' option
   should be used with the `report' document style
 }{}}{}
 

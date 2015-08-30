@@ -1,0 +1,106 @@
+%%%%::::::::::::::::::::::::::::::engineeringThesis V2::::::::::::::::::::::::::::::%%%
+\input{preamble.tex}
+
+\setlength\parindent{0pt}
+
+\usepackage{multicol}
+\usepackage[margin=10pt,small,hang,labelfont=bf,up]{caption} % Custom captions under/above floats in tables or figures
+
+
+\newcommand{\Abstract}[1]{\normalfont\bfseries\itshape{Abstract\/}: \normalfont{#1}}
+
+\newcommand{\Keywords}[1]{\normalfont\bfseries\itshape{Keywords\/}: \normalfont{#1}}
+	
+%%% HEADERS & FOOTERS
+\usepackage{lastpage}
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\renewcommand{\headrulewidth}{0pt} % remove line below header
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{\textit{Thesis title}} % Custom header text
+\fancyfoot[R]{\textit{Page \thepage \ of \pageref{LastPage}}} 
+%----------------------------------------------------------------------------------------
+
+\usepackage[style=ieee,backend=bibtex]{biblatex}
+\footnotesize{\bibliography{ref}}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+
+\setcounter{page}{1}
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+\Abstract{Write your abstract within these curly brackets. To clear and skip lines you will have the use the double backslash command. The best educators are the ones that inspire their students. That inspiration comes from a passion that teachers have for the subject they're teaching. Most commonly, that person spent their lives studying that subject, and they bring an infectious enthusiasm to the audience. I think many people have that enthusiasm, but they are prevented from being teachers because they didn't go through the teacher mill. Now you have teachers who have been through the teacher mill, yet they have no capacity to inspire anyone at all. It's the inspired student that continues to learn on their own. That's what separates the real achievers in the world from those who pedal along, finishing assignments. - Neil deGrasse Tyson.}\\
+
+\Keywords{Educators, Teachers, Assignments}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{INTRODUCTION}
+
+This template was generated according to the University of Malta, Faculty of Engineering guidelines \cite{guidelines}. In the following chapters some examples regarding the use of this template and other common commands are illustrated. Most of this and other information can be acquired for the \LaTeX{} wiki books\footnote{\url{http://en.wikibooks.org/wiki/LaTeX/}}.
+
+\section{FIRST SECTION}
+\label{sec:sec1}
+
+\lipsum[2]
+
+\subsection{FIRST SUBSECTION} 
+\label{ssec:ssec1.1}
+
+\lipsum[3]
+
+\subsection{SECOND SUBSECTION}
+\label{ssec:ssec1.2}
+
+\lipsum[1]
+
+\section{SECOND SECTION}
+
+\lipsum[5]
+
+\subsection{FIRST SUBSECTION}
+
+\lipsum[2]
+
+\subsection{SECOND SUBSECTION}
+
+\lipsum[2]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.45\textwidth]{pics/WordVsLatex}
+\caption{WordVsLatex}
+\label{fig:WordVsLatex}
+\end{figure}
+
+\section{RESULTS}
+
+\lipsum[2]
+
+\section{CONCLUSION}
+
+\lipsum[2]
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+\printbibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{multicols}
+
+\end{document}
