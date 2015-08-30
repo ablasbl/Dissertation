@@ -1,0 +1,78 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=3cm,includeheadfoot, headsep=1cm, footskip=1cm, centering}
+
+
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+% Redefine command \maketitle. Creates the title page for the thesis 
+% Requires values for the macros:
+% \title, \author, \date, \supervisor and \cosupervisor (optional).
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+\renewcommand\maketitle{
+  \begin{titlepage}
+  \let\footnotesize\small
+  \let\footnoterule\relax
+  \let \footnote \thanks
+  \vfill
+
+	\begin{center}
+    {\Large
+      \vspace{30mm}
+      UNIVERSITY OF MALTA\\
+      \large
+      Faculty of Engineering
+      \vspace{10mm}
+      }
+
+    {\large
+      FINAL YEAR PROJECT\\
+      \large
+      B.ENG (HONS.)
+      \vspace{15mm}
+      }
+      
+    \begin{minipage}{\textwidth}
+      \begin{center}
+        \includegraphics[height=3cm]{packages/crest}\\
+	    University of Malta \\
+    	L-Universit\`a ta' Malta \\
+      \end{center}
+    \end{minipage}    
+
+	\vspace{15mm}
+	{\bfseries \large Thesis title \par}
+    \vspace{10mm}
+    by \\ 
+    \vspace{5mm}
+    {\fontsize{12}{14} name surname \par}    
+    \vspace{45mm}
+    {Supervised by supervisor name \par}
+    \vspace{10mm}
+    
+    {A synopsis submitted in partial fulfilment \par}
+    {of the requirements of the award of \par}
+    \vspace{3mm} 
+    {Bachelor of Engineering (Hons.) of the University of Malta \par}
+    \vspace{5mm}
+   month year
+      
+      
+	\end{center}
+
+
+  \end{titlepage}
+}
+
+\begin{document}
+
+\maketitle
+
+
+\end{document}

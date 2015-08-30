@@ -1,0 +1,34 @@
+\chapter{Introduction}
+\label{ch:introduction}
+
+This template was generated according to the University of Malta, Faculty of Engineering guidelines \cite{guidelines}. In the following chapters some examples regarding the use of this template and other common commands are illustrated. Most of this and other information can be acquired for the \LaTeX{} wiki books\footnote{\url{http://en.wikibooks.org/wiki/LaTeX/}}.
+
+To use abbreviations add the acronyms command with the \textit{acronyms.tex} file between the curly brackets. Add your abbreviations to the \textit{acronyms.tex} file using the command
+\begin{code}
+\newacronym{label}{abbreviation}{full_name}
+e.\alpha
+\newacronym{pv}{PV}{Photovoltaic}
+\end{code}
+When you want to use the abbreviation use the commands
+
+\begin{table}[h!]
+\center
+\begin{tabular}{l p{11cm}}
+\verb|\gls{label}| & This command prints the term associated with $<$label$>$ passed as its argument.\\
+\verb|\glspl{<label>}| & This command prints the plural of the defined therm, other than that it behaves in the same way as gls.\\
+\verb|\Gls{<label>}| & This command prints the singular form of the term with the first character converted to upper case.\\
+\verb|\Glspl{<label>}| & This command prints the plural form with first letter of the term converted to upper case.\\
+\end{tabular}
+\end{table}
+
+The first time a the acronym is used it is axiomatically written as the full name with the abbreviation in parentheses. The rest of the time it is written as the abbreviation. To generate the acronym page, or refresh it, one has to execute the command
+
+\begin{code}
+makeglossaries <fileName>
+\end{code}
+
+from the terminal (unix) or cmd (windows). The following paragraph shows an example of how to use acronyms and how they are displayed.
+
+\glspl{dssc} are \gls{pv} cells using organic materials instead of \glspl{sc}. They usually use nano-particles of \gls{tio2} as a \gls{sc} to transfer electrons \cite{Gra91}.
+
+The rest of the text is lorem ipsum, just to show the type-setting, with the exception of a few example showing you how to use various environments and commands.

@@ -1,0 +1,210 @@
+\ifglsentryexists{pv}{}%
+{%
+\gls@defglossaryentry{pv}%
+{%
+name={PV},%
+sort={PV},%
+type={acronym},%
+first={Photovoltaic\glsspace (PV)},%
+firstplural={Photovoltaic\acrpluralsuffix \glsspace (PV\acrpluralsuffix )},%
+text={PV},%
+plural={PV\acrpluralsuffix },%
+description={Photovoltaic},%
+descriptionplural={Photovoltaic\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Photovoltaic},%
+longplural={Photovoltaics},%
+short={PV},%
+shortplural={PVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uv}{}%
+{%
+\gls@defglossaryentry{uv}%
+{%
+name={UV},%
+sort={UV},%
+type={acronym},%
+first={ultraviolet\glsspace (UV)},%
+firstplural={ultraviolet\acrpluralsuffix \glsspace (UV\acrpluralsuffix )},%
+text={UV},%
+plural={UV\acrpluralsuffix },%
+description={ultraviolet},%
+descriptionplural={ultraviolet\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={ultraviolet},%
+longplural={ultraviolets},%
+short={UV},%
+shortplural={UVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dssc}{}%
+{%
+\gls@defglossaryentry{dssc}%
+{%
+name={DSC},%
+sort={DSC},%
+type={acronym},%
+first={dye-sensitized solar cell\glsspace (DSC)},%
+firstplural={dye-sensitized solar cell\acrpluralsuffix \glsspace (DSC\acrpluralsuffix )},%
+text={DSC},%
+plural={DSC\acrpluralsuffix },%
+description={dye-sensitized solar cell},%
+descriptionplural={dye-sensitized solar cell\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={dye-sensitized solar cell},%
+longplural={dye-sensitized solar cells},%
+short={DSC},%
+shortplural={DSCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sc}{}%
+{%
+\gls@defglossaryentry{sc}%
+{%
+name={SC},%
+sort={SC},%
+type={acronym},%
+first={semiconductor\glsspace (SC)},%
+firstplural={semiconductor\acrpluralsuffix \glsspace (SC\acrpluralsuffix )},%
+text={SC},%
+plural={SC\acrpluralsuffix },%
+description={semiconductor},%
+descriptionplural={semiconductor\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={semiconductor},%
+longplural={semiconductors},%
+short={SC},%
+shortplural={SCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tio2}{}%
+{%
+\gls@defglossaryentry{tio2}%
+{%
+name={\ce {TiO2}},%
+sort={\ce {TiO2}},%
+type={acronym},%
+first={titanium dioxide\glsspace (\ce {TiO2})},%
+firstplural={titanium dioxide\acrpluralsuffix \glsspace (\ce {TiO2}\acrpluralsuffix )},%
+text={\ce {TiO2}},%
+plural={\ce {TiO2}\acrpluralsuffix },%
+description={titanium dioxide},%
+descriptionplural={titanium dioxide\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={titanium dioxide},%
+longplural={titanium dioxides},%
+short={\ce {TiO2}},%
+shortplural={\ce {TiO2}s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{als}{}%
+{%
+\gls@defglossaryentry{als}%
+{%
+name={ALS},%
+sort={ALS},%
+type={acronym},%
+first={Amyotrophic Lateral Sclerosis\glsspace (ALS)},%
+firstplural={Amyotrophic Lateral Sclerosis\acrpluralsuffix \glsspace (ALS\acrpluralsuffix )},%
+text={ALS},%
+plural={ALS\acrpluralsuffix },%
+description={Amyotrophic Lateral Sclerosis},%
+descriptionplural={Amyotrophic Lateral Sclerosis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Amyotrophic Lateral Sclerosis},%
+longplural={Amyotrophic Lateral Sclerosiss},%
+short={ALS},%
+shortplural={ALSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{eog}{}%
+{%
+\gls@defglossaryentry{eog}%
+{%
+name={EOG},%
+sort={EOG},%
+type={acronym},%
+first={Electrooculography\glsspace (EOG)},%
+firstplural={Electrooculography\acrpluralsuffix \glsspace (EOG\acrpluralsuffix )},%
+text={EOG},%
+plural={EOG\acrpluralsuffix },%
+description={Electrooculography},%
+descriptionplural={Electrooculography\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Electrooculography},%
+longplural={Electrooculographys},%
+short={EOG},%
+shortplural={EOGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

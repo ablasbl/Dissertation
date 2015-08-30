@@ -1,0 +1,77 @@
+%%%::::::::::::::::::::::::::::::engineeringThesis V2::::::::::::::::::::::::::::::%%%
+\input{preamble.tex}
+
+\begin{document}
+
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+% The following fields are required information to be filled for the thesis.
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+\title{Dissertation title}
+\author{Name Surname}
+\date{Publication date}
+\supervisor{Supervisor Name}
+\cosupervisor{Cosupervisor Name}
+\department{Department of }% Electronic Systems Engineering, Industrial \& Manufacturing Engineering, Industrial Electrical Power Conversion, Mechanical Engineering, Metallurgy \& Materials Engineering, Systems \& Control Engineering
+\degree{B.Eng (Hons)}% B.Eng. (Hons), M.Eng., Ph.Ds
+
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+% The following fields are optional although certain fields, e.x. abstract,
+% acknowledgements, are to be filled for the final dissertation.
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+\cosupervisor{cosupervisor}
+\acronyms{acronyms}% Enter the tex file containing the acronym information.
+\dedication{\textbf{To Eiichiro Oda}\\For fuelling my motivation through epic tales}
+\acknowledgements{
+Write your acknowledgements within these curly brackets. To clear and skip lines you will have the use the double backslash command.\\
+\\
+If you take a look at science in its everyday function, of course you find that scientists run the gamut of human emotions and personalities and character and so on. But there's one thing that is really striking to the outsider, and that is the gauntlet of criticism that is considered acceptable or even desirable. The poor graduate student at his or her Ph.D. oral exam is subjected to a withering crossfire of questions that sometimes seem hostile or contemptuous; this from the professors who have the candidate's future in their grasp. The students naturally are nervous; who wouldn't be? True, they've prepared for it for years. But they understand that at that critical moment they really have to be able to answer questions. So in preparing to defend their theses, they must anticipate questions; they have to think,``Where in my thesis is there a weakness that someone else might find because I sure better find it before they do, because if they find it and I'm not prepared, I'm in deep trouble."\\
+\\
+Carl Sagan}
+
+\acknowledgements{Write your acknowledgements within these curly brackets. To clear and skip lines you will have the use the double backslash command.\\
+\\
+If you take a look at science in its everyday function, of course you find that scientists run the gamut of human emotions and personalities and character and so on. But there's one thing that is really striking to the outsider, and that is the gauntlet of criticism that is considered acceptable or even desirable. The poor graduate student at his or her Ph.D. oral exam is subjected to a withering crossfire of questions that sometimes seem hostile or contemptuous; this from the professors who have the candidate's future in their grasp. The students naturally are nervous; who wouldn't be? True, they've prepared for it for years. But they understand that at that critical moment they really have to be able to answer questions. So in preparing to defend their theses, they must anticipate questions; they have to think,``Where in my thesis is there a weakness that someone else might find because I sure better find it before they do, because if they find it and I'm not prepared, I'm in deep trouble."\\
+\\
+Carl Sagan}
+
+\abstract{Write your abstract within these curly brackets. To clear and skip lines you will have the use the double backslash command.\\
+\\
+After your first job, is anyone asking you what your GPA was? No, they don't care. They ask you: Are you a good leader? Do people follow you? Do you have integrity? Are you innovative? Do you solve problems? Somebody's got to do that homework and redesign the educational system so that it can actually train people to be successful in life.\\
+\\
+I think the greatest teachers are not the ones that are best trained at educational tactics. I don't know a person who's ever said,``Boy, that teacher is so good! The teacher gives such good exams. That teacher gives such good homework sets!" No one has said that about a great teacher. That's not what people remember about the great teachers they've had.\\
+\\
+The best educators are the ones that inspire their students. That inspiration comes from a passion that teachers have for the subject they're teaching. Most commonly, that person spent their lives studying that subject, and they bring an infectious enthusiasm to the audience.\\
+\\
+I think many people have that enthusiasm, but they are prevented from being teachers because they didn't go through the teacher mill. Now you have teachers who have been through the teacher mill, yet they have no capacity to inspire anyone at all. It's the inspired student that continues to learn on their own. That's what separates the real achievers in the world from those who pedal along, finishing assignments.\\
+\\
+Neil deGrasse Tyson.}
+
+\publications{If you have published and papers during your thesis include them here. BTW... well done!}
+
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+\frontmatter % this command will generate all the front pages according to the information entered in the section above. 
+
+\input{chapters/introduction}
+\input{chapters/lorem}
+\input{chapters/environments}
+\input{chapters/chemistry}
+
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+% The following commands are required for generating the references section.
+% \bibliographystyle{} command sets the citation style and \bibliography{} gives the files in which the bibliography code is place. If the code is contained in multiple files, separate them by a comma and NO space e.x. {ref1.bib,ref2.bib}
+% References and Bibliography should be placed before the Appendix.
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+\bibliomatter
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
+
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+% The following command will add the bibliography section including all the materials whose citation code is written in bib.bib, or the files written between the {}.
+%%%:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+%\bibliografia{bib.bib}
+
+\appendix
+\input{appendix/code}
+
+\end{document}
