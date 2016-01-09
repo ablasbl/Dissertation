@@ -30,8 +30,6 @@ Method 2
 
 To input the details for the front page for both the dissertation and the synopsis, go to the style file (.sty) in the packages folder.
 
-The synopsis takes care of the 
-
 If you find any problems, any solutions to existing problems, any useful packages that should be included to make the template better, contact me on alison.baldacchino.10@um.edu.mt.
 
 GOOD LUCK!!
