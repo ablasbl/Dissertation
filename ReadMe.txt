@@ -7,7 +7,7 @@ This version works well and produces high quality documents.
 The known issues are:
 
 1) the hyperrefing for the Abstract when 
-clicked from the PDF table of contents section, the PDF moves to the start of the Dedication page. Although this may be resolved in future versions it is not of utmost importance for a proper thesis.
+clicked from the PDF table of contents section, the PDF moves to the start of the Dedication page. Although this may be resolved in future versions it is not of utmost importance for the actual thesis.
 
 2) the typesetting gives an error a line after the '\frontmatter' 
 command but has no effect on the produced PDF.
